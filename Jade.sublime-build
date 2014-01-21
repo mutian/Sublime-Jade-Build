@@ -1,16 +1,6 @@
 {
-
-	"cmd": ["jade", "$file", "--stop-on-error", "--no-cache", "--pretty"],
+	"cmd": ["jade", "$file", "--pretty"],
 	"selector": "source.jade",
-
-	"osx":
-	{
-		"path": "/usr/local/bin:$PATH"
-	},
-
-	"windows":
-	{
-		"shell": "true"
-	}
-
+	"osx": {"path": "/usr/local/bin:$PATH"},
+	"windows": {"shell": "true"}
 }
