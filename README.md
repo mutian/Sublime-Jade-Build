@@ -1,4 +1,4 @@
-Jade build system for Sublime Text 2
+Jade Build for Sublime Text 2
 ====================================
 
 Description
