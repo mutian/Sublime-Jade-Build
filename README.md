@@ -33,7 +33,7 @@ Requires **Node.js** & **Jade** libraries. Step by step:
 Installation
 ------------
 
-**OPTION 1 - with Package Control *(recommended)* **
+**OPTION 1 - with Package Control (recommended)**
 
 The easiest way to install this package is through Package Control.
 
