@@ -33,7 +33,7 @@ Requires **Node.js** & **Jade** libraries. Step by step:
 Installation
 ------------
 
-### OPTION 1 - with Package Control (recommended)
+**OPTION 1 - with Package Control *(recommended)* **
 
 The easiest way to install this package is through Package Control.
 
@@ -44,7 +44,7 @@ The easiest way to install this package is through Package Control.
 3. When packages list appears, type `Jade` and you'll find **Jade Build**, select to install it.
 
 
-### OPTION 2 - with Git
+**OPTION 2 - with Git**
 
 Clone the repository in your Sublime Text "Packages" directory:
 
@@ -62,7 +62,7 @@ You can find your "Packages" inside the following directories:
     `~/.Sublime Text 2/Packages/`
 
 
-### OPTION 3 - without Git
+**OPTION 3 - without Git**
 
 Download the latest source zip from [Github](https://github.com/mutian/Jade-Build) and extract it into a new folder named `Jade Build` in your Sublime Text "Packages" folder.
 
