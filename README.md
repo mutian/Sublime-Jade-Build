@@ -85,8 +85,8 @@ Recommendations
 
 * If you want to change the default folder of your generated HTML files into another one, you can edit the build.
 
-	**Example:** Save your HTML files into a `html` folder:
-	`"cmd": ["jade", "$file:${file_path}/../html/${file_base_name}.html", "--pretty"],`
+	**Example:** Save your HTML files into a parent `html` folder:
+	`"cmd": ["jade", "$file", "--out", "../html", "--pretty"],`
 
 
 Author
