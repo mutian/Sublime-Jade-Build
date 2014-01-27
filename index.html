@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Jade Build for Sublime Text by mutian</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Jade Build for Sublime Text</h1>
+          <h2>Build system for Jade files, compiles .jade files into .html files.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/mutian/Jade-Build/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/mutian/Jade-Build/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/mutian/Jade-Build" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h2>
+<a name="prerequisites" class="anchor" href="#prerequisites"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<p>Requires <strong>Node.js</strong> &amp; <strong>Jade</strong> libraries. Step by step:</p>
+
+<ol>
+<li>
+<p>Install <strong>Node.js</strong></p>
+
+<p>Download and install Node.js. You can find it here:
+<a href="http://nodejs.org/">http://nodejs.org</a> .</p>
+
+<p>Reboot after install it.</p>
+</li>
+<li>
+<p>Install <strong>Jade</strong></p>
+
+<p>Open your console and execute the following command:</p>
+
+<ul>
+<li><p>Windows: <code>npm install jade --global</code></p></li>
+<li><p>OS X: <code>sudo npm install jade --global</code></p></li>
+</ul>
+</li>
+</ol><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p><strong>OPTION 1 - with Package Control (recommended)</strong></p>
+
+<p>The easiest way to install this package is through Package Control.</p>
+
+<ol>
+<li><p>Install <a href="https://sublime.wbond.net/installation">Package Control</a>, follow instructions on the website.</p></li>
+<li><p>Open command panel: <code>Ctrl+Shift+P</code> (Linux/Windows) or <code>Cmd+Shift+P</code> (OS X) and select <strong>Package Control: Install Package</strong>.</p></li>
+<li><p>When packages list appears, type <code>Jade</code> and you'll find <strong>Jade Build</strong>, select to install it.</p></li>
+</ol><p><strong>OPTION 2 - with Git</strong></p>
+
+<p>Clone the repository in your Sublime Text "Packages" directory:</p>
+
+<pre><code>git clone git://https://github.com/mutian/Jade-Build.git Jade-Build
+</code></pre>
+
+<p>You can find your "Packages" inside the following directories:</p>
+
+<ul>
+<li><p>OS X:
+<code>~/Library/Application Support/Sublime Text 2/Packages/</code></p></li>
+<li><p>Windows:
+<code>%APPDATA%/Sublime Text 2/Packages/</code></p></li>
+<li><p>Linux:
+<code>~/.Sublime Text 2/Packages/</code></p></li>
+</ul><p><strong>OPTION 3 - without Git</strong></p>
+
+<p>Download the latest source zip from <a href="https://github.com/mutian/Jade-Build">Github</a> and extract it into a new folder named <code>Jade Build</code> in your Sublime Text "Packages" folder.</p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>After installing, you will find a new options in <code>Tools &gt; Build system</code> of your  Sublime menu: <strong>Jade</strong>.</p>
+
+<p>Remember, always you can launch the selected build with <code>Control+B</code> (Linux/Windows) or <code>Command+B</code> (OS X).</p>
+
+<h2>
+<a name="recommendations" class="anchor" href="#recommendations"><span class="octicon octicon-link"></span></a>Recommendations</h2>
+
+<ul>
+<li><p>Recommend to use with plugin <a href="https://github.com/davidrios/jade-tmbundle">Jade</a>.</p></li>
+<li><p>Also, I recommend the plugin <a href="https://github.com/alexnj/SublimeOnSaveBuild">SublimeOnSaveBuild</a>, just save your Jade files and transform them into HTML!</p></li>
+<li>
+<p>If you want to change the default folder of your generated HTML files into another one, you can edit the build.</p>
+
+<p><strong>Example:</strong> Save your HTML files into a parent <code>html</code> folder:
+<code>"cmd": ["jade", "$file", "--out", "../html", "--pretty"],</code></p>
+</li>
+</ul><h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p>Created by <strong>Mutian</strong> (<a href="http://mutian.info/">http://mutian.info</a>).</p>
+
+<p>For more info, you can send email to me: mutian(a)me.com!</p>
+
+<h2>
+<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h2>
+
+<p>Thanks to the <strong>RIA Team</strong> of <a href="http://weibo.com/">Weibo.com</a> .</p>
+        </section>
+
+        <footer>
+          Jade Build for Sublime Text is maintained by <a href="https://github.com/mutian">mutian</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
