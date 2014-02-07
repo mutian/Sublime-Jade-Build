@@ -1,5 +1,5 @@
-Jade Build for Sublime Text 2/3
-===============================
+Jade Build for Sublime Text
+===========================
 
 
 Description
