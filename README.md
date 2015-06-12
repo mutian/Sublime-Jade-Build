@@ -102,4 +102,4 @@ For more info, you can send email to me: mutian(a)me.com!
 Acknowledgements
 ----------------
 
-Thanks to the **RIA Team** of [Weibo.com](http://weibo.com/) .
+Thanks to the **[RIA Team](http://wbria.com/)** of [Weibo.com](http://weibo.com/) .
