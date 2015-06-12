@@ -48,7 +48,9 @@ The easiest way to install this package is through Package Control.
 
 Clone the repository in your Sublime Text "Packages" directory:
 
-    git clone git://github.com/mutian/Sublime-Jade-Build.git "Jade Build"
+```shell
+git clone git://github.com/mutian/Sublime-Jade-Build.git "Jade Build"
+```
 
 You can find your "Packages" inside the following directories:
 
@@ -92,7 +94,7 @@ Recommendations
 Author
 ------
 
-Created by **Mutian** ([http://mutian.info](http://mutian.info/)).
+Created by **Mutian** ([http://mutian.wang](http://mutian.wang/)).
 
 For more info, you can send email to me: mutian(a)me.com!
 
