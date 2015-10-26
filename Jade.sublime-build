@@ -1,6 +1,6 @@
 {
 	"cmd": ["jade", "$file", "--pretty"],
-	"selector": "source.jade",
+	"selector": "text.jade",
 	"osx": {"path": "/usr/local/bin:$PATH"},
 	"windows": {"shell": "true"}
 }
